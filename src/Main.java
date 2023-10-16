@@ -101,7 +101,6 @@ public class Main {
                     break;
             }
         }
-        System.out.println("Güle Güle...");
-
+        System.out.println("Çıkış yaptınız...Güle Güle!");
     }
 }
