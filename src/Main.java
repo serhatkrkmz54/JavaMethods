@@ -1,6 +1,8 @@
 import java.util.Scanner;
-
 public class Main {
+    static void guleGule(){
+        System.out.println("Çıkış Yaptınız...Güle Güle!");
+    }
     static int topla(int ilkSayi, int ikinciSayi){
         int sonuc = ilkSayi+ikinciSayi;
         System.out.println("Cevap: "+sonuc);
@@ -101,6 +103,6 @@ public class Main {
                     break;
             }
         }
-        System.out.println("Çıkış yaptınız...Güle Güle!");
+        guleGule();
     }
 }
